@@ -16,7 +16,7 @@ const Sidebar = () => {
                     {[
                         { to: '/', icon: <Home />, label: 'Dashboard' },
                         { to: '/addTask', icon: <PlusCircle />, label: 'Add Task' },
-                        { to: '/deferredTask', icon: <Clock />, label: 'Deferred' },
+                        // { to: '/deferredTask', icon: <Clock />, label: 'Deferred' },
                         { to: '/pendingTask', icon: <ListChecks />, label: 'Pending' },
                         { to: '/deployedTask', icon: <CheckCircle2 />, label: 'Deployed' },
                         { to: '/completeTask', icon: <Activity />, label: 'Completed' },
