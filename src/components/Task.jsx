@@ -33,7 +33,7 @@ const Task = ({ id, title, completed, description, startDate, endDate, status, a
                 <option value="In Progress">In Progress</option>
                 <option value="Completed">Completed</option>
                 <option value="Deployed">Deployed</option>
-                <option value="Deferred">Deferred</option>
+                {/* <option value="Deferred">Deferred</option> */}
             </select>
             <input type="text" value={assignee} onChange={event => handleUpdateTask('assignee', event.target.value)} placeholder="Assignee" />
             <select value={priority} onChange={event => handleUpdateTask('priority', event.target.value)}>
